@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    .header__logo{
+        .img{
+            width: 320px;
+            @media all and (min-width: 768px){
+                width: 622px;
+                height: 202px;
+            }
+        }
+    }
+}

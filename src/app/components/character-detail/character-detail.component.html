@@ -1,0 +1,14 @@
+<div class="info__character__detail">
+    <div class="character__info">
+      <div class="container__img__info">
+        <img [src]="character.image" alt="character image" />
+      </div>
+      <div class="container__info__info">
+        <h2>Name: {{character.name}}</h2>
+        <p>Status: {{character.status}}</p>
+        <p>Specie: {{character.species}}</p>
+        <p>Planet: {{character.origin.name}}</p>
+        <p>Chapters: {{character.episode.length}}</p>
+      </div>
+    </div>
+</div>
